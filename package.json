@@ -1,0 +1,43 @@
+{
+  "name": "datocmsishamaha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^6.3.1",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "franc": "^6.0.0",
+    "json-stringify": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "languagedetect": "^2.0.0",
+    "log4js": "^6.3.0",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^3.2.0",
+    "nodemailer": "^6.6.3",
+    "request": "^2.88.2",
+    "sequelize": "^6.4.0",
+    "superagent": "^7.0.2",
+    "sync-loop": "^0.1.1",
+    "uuidv4": "^6.2.12",
+    "wordpress-rest-api": "^0.8.0",
+    "wpapi": "^2.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "datocms-client": "^3.5.9",
+    "nodemon": "^1.18.4"
+  }
+}
